@@ -6,7 +6,7 @@ require 'Validator/validator.php';
 
 use Validator\ProductValidator;
 
-$allowed_methods = ['POST'];
+$allowed_methods = ['DELETE'];
 $request_method = $_SERVER['REQUEST_METHOD'];
 
 if (!in_array($request_method, $allowed_methods)) {
